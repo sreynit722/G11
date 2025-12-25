@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Kantumruy Pro", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+.list-group {
+  list-style: none;
+  background-color: rgb(18, 18, 119);
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list-item a {
+  color: white;
+}
+.header {
+  height: 400px;
+  background-color: rgb(7, 7, 85);
+  color: white;
+  text-align: center;
+}
+.tittle {
+  padding-top: 120px;
+  line-height: 35px;
+}
+
+.about,
+.values {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about h2,
+.values h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.mission-vision {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  color: rgb(18, 18, 119);
+}
+
+.values {
+ line-height: 25px;
+}
+
+.footer {
+  background-color: rgb(7, 7, 85);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
